@@ -18,12 +18,8 @@ function startTimer() {
    generateQuestions();
    settimer();
 }
-
 startBtn.addEventListener("click", startTimer);
 answerChoices.addEventListener("click", handleClick);
-
-
-
 var questionNumber=0;
 function settimer(){
     var countdown = setInterval(function () {
@@ -32,22 +28,17 @@ function settimer(){
         if (timeLeft < 0 || questionNumber >= questions.length) {
             clearInterval(countdown);
             setTimeout(submitScore, 1000);
-    }
+        }
     }, 1000);
 }
 function generateQuestions(){
-
-    
     question.textContent=questions[questionNumber].title;
-    
     console.log(questions[questionNumber].title);
     choices[0].textContent = questions[questionNumber].choices[0];
     choices[1].textContent = questions[questionNumber].choices[1];
     choices[2].textContent = questions[questionNumber].choices[2];
     choices[3].textContent = questions[questionNumber].choices[3];
- 
-
-}
+ }
 function hideFeedback(){
     var feedback= document.getElementById("feedback");
     feedback.style.display='none'
@@ -68,29 +59,29 @@ function handleClick(event){
             timeLeft = timeLeft - 15;
             feedback.removeAttribute('style');
         }
-        
-        questionNumber++;
-        generateQuestions();
+    questionNumber++;
+    generateQuestions();
     }
  }
-
- function submitScore() {
+function submitScore() {
     document.getElementById("questionPage").classList.add('d-none');
     document.getElementById("finalPage").classList.remove('d-none');
     score.textContent = "Your final score is " + timeLeft + "!!";
 } 
-
-
 function displayScore(){
-  
-    var newScore = {
+     var newScore = {
         name: userInput.value,
         score: timeLeft,
     };
-    var highScores=[];
+    var highScores = JSON.parse(localStorage.getItem("highScores") || "[]");
     highScores.push(newScore)
     localStorage.setItem("highScores", JSON.stringify(highScores));
     
     console.log(highScores);
 }
-submitButton.addEventListener("click",displayScore);
+    submitButton.addEventListener("click", function (event) {
+        event.preventDefault();
+        displayScore();
+        
+        window.location.href = 'highScore.html'
+    });
