@@ -1,0 +1,18 @@
+body{
+    max-width: 960px;
+    margin-left: auto;
+    margin-right:auto;
+    text-align:center;
+    background-color:	#FFDAB9;
+}
+#StartQuiz{
+    padding:20px;
+    background-color: #008080;
+    border-radius: 40%;
+
+}
+a,h6{
+    text-decoration:none;
+    color:#008080;
+    font-weight:bold;
+}
