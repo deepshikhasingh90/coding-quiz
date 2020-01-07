@@ -13,6 +13,9 @@ for (var j = 0; j < highscores.length; j++) {
 
 cleartheButton.addEventListener("click", function () {
     localStorage.clear();
+    // localStorage.removeItem(highscores);
+    window.location.reload();
+
 });
 restartBtn.addEventListener("click", function () {
     history.back();
