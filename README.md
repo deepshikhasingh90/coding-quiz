@@ -11,6 +11,7 @@ For this project, I've created a javascript code to generate  a random javascrip
 ### Build Width
 1. Html
 2. CSS
-3. javascript
+3. jquery.
 
-### Programme logic :
+
+

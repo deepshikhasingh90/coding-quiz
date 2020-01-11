@@ -3,7 +3,7 @@ body{
     margin-left: auto;
     margin-right:auto;
     text-align:center;
-    background-color:	#FFDAB9;
+    background-color:#E6E6FA
 }
 #StartQuiz{
     padding:20px;
@@ -13,6 +13,7 @@ body{
 }
 a,h6{
     text-decoration:none;
-    color:#008080;
+    color:black;
     font-weight:bold;
+    font-size:15px;
 }

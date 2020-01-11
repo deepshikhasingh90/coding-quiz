@@ -54,7 +54,7 @@ function handleClick(event){
             feedback.removeAttribute('style');
         }
         else{
-            feedback.textContent="Your answer is wrong!!"
+            feedback.textContent="Your answer is incorrect!"
             setTimeout(hideFeedback,1000);
             timeLeft = timeLeft - 15;
             feedback.removeAttribute('style');
