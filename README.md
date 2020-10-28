@@ -15,7 +15,7 @@ Click [Here](https://deepshikhasingh90.github.io/coding-quiz/) to launch the Cod
 4. jquery.
 
 This is the home page:
-[HomePage](https://github.com/deepshikhasingh90/coding-quiz/blob/master/.png)
+[HomePage](https://github.com/deepshikhasingh90/coding-quiz/blob/master/Image/image.jpg)
 
 
 
