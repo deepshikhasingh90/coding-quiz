@@ -6,7 +6,7 @@ This is an random coding quiz app for the user. Users can see their score at the
 of the game and also a summary of last few games played. There is also a timer for time tracking.
  
 
-[Click Here](https://deepshikhasingh90.github.io/coding-quiz/) to launch the Coding-Quiz! To visit the website
+Click [Here](https://deepshikhasingh90.github.io/coding-quiz/) to launch the Coding-Quiz!
 
 
 ### Build Width
