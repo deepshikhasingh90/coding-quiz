@@ -15,7 +15,7 @@ Click [Here](https://deepshikhasingh90.github.io/coding-quiz/) to launch the Cod
 4. jquery.
 
 This is the home page:
-[ScreenShot](Image/image.jpg)<br>
+![ScreenShot](/Image/image.jpg)<br>
 
 
 
