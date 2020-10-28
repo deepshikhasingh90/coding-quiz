@@ -14,10 +14,10 @@ Click [Here](https://deepshikhasingh90.github.io/coding-quiz/) to launch the Cod
 3. CSS
 4. jquery.
 
-This is the home page:
-<img src="/Image/homepage.png" width="500" height="300">
-An example of a question:
-<img src="/Image/Coding-Question.png" width="500" height="300">
-Result page 
-<img src="/Image/result.png" width="500 " height="300">
+This is the home page:<br>
+<img src="/Image/homepage.png" width="600" height="300"><br>
+An example of a question:<br>
+<img src="/Image/Coding-Question.png" width="600" height="300"><br>
+Result page <br>
+<img src="/Image/result.png" width="600 " height="300"><br>
 
