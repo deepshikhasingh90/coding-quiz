@@ -17,7 +17,7 @@ Click [Here](https://deepshikhasingh90.github.io/coding-quiz/) to launch the Cod
 This is the home page:<br>
 <img src="/Image/image1.jpg" ><br>
 An example of a question:<br>
-<img src="/Image/Coding-Question.png" width="800" height="600"><br>
+<img src="/Image/Coding-Question.png" ><br>
 Result page <br>
-<img src="/Image/result.png" width="800 " height="600"><br>
+<img src="/Image/result.png"><br>
 
