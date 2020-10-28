@@ -2,8 +2,7 @@
 
 ## Overview
 
-This is an random coding quiz app for the user. Users can see their score at the end 
-of the game and also a summary of last few games played. There is also a timer for time tracking.
+This is an a timer-based coding assessment app for the user.The application has a few multiple choice questions.At the end of the quiz ,upon viewing their score, the user is able to enter their initials to add their score to the High Scores list. Once they enter their initials, the scoreboard will appear with an option to clear the board or restart the quiz.
  
 
 Click [Here](https://deepshikhasingh90.github.io/coding-quiz/) to launch the Coding-Quiz!
@@ -14,6 +13,9 @@ Click [Here](https://deepshikhasingh90.github.io/coding-quiz/) to launch the Cod
 2. Html
 3. CSS
 4. jquery.
+
+This is the home page:
+(https://github.com/deepshikhasingh90/coding-quiz/blob/master/.png)
 
 
 
