@@ -16,6 +16,7 @@ Click [Here](https://deepshikhasingh90.github.io/coding-quiz/) to launch the Cod
 
 This is the home page:
 ![ScreenShot](/Image/homepage.png =250x250)<br>
+<img src="/Image/homepage.png" width="100" height="100">
 An example of a question:
 ![ScreenShot](/Image/Coding-Question.png =250x250)<br>
 Result page 
